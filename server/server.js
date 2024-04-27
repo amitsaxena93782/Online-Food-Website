@@ -4,11 +4,20 @@ const cors = require('cors');
 require('dotenv').config();
 const app = express();
 
+const cuisineRouter = require('./Routers/cuisineRouter');
+
 app.use(express.json());
 app.use(cors());
 
+app.use((req, res, next) => {
+    console.log('Middleware is running');
+    next();
+})
+
+app.use('/cuisines', cuisineRouter);
+
 app.get('/', (req, res) => {
-    console.log('Hello World');
+    console.log('This is backend');
 });
 
 mongoose.connect(process.env.MONGO_URI)
