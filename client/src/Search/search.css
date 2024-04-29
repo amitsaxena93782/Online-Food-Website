@@ -1,13 +1,81 @@
 #text{
     top: 117px;
     left: 113px;
-    width: 514px;
     height: 51px;
     text-align: left;
     font: normal normal bold 40px/55px Poppins;
     letter-spacing: 0px;
     color: #192F60;
     opacity: 1;
-    width: 90%;
+    width: 1400px;
     margin: 30px auto;
+}
+
+#mainSearch {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-left: 5px;
+    width: 1400px;
+}
+
+#filter {
+    height: 600px;
+    width: 250px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+#filter_heading {
+    text-align: left;
+    font: normal normal 600 23px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.sub_heading {
+    text-align: left;
+    margin-top: 25px;
+    font: normal normal normal 18px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+} 
+#select_location {
+    width: 150px;
+}
+
+#select {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#cuisines {
+    margin-top: 20px;
+}
+
+.check {
+    display: block;
+    height: 25px;
+}
+
+#Restaurants {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.Restaurant {
+    height: 250px;
+    min-width: 400px;
+    max-width: 100%;
+    margin-left: 60px;
+    margin-top: 10px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.25);
+}
+
+#page_nav {
+    display: block;
 }
