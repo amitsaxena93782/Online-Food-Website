@@ -1,0 +1,79 @@
+.Top{
+    height: 480px;
+    background: transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    background-size: cover;
+}
+
+.Header{
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 80px;
+    opacity: 1;
+}
+
+.buttons {
+    height: 40px;
+}
+#login_top, #create_top {
+    color: white;
+    margin-right: 20px;
+    font-size: large;
+}
+#create_top {
+    border: 1px solid white;
+}
+
+.Icon {
+    margin: auto;
+    align-content: center;
+    width: 127px;
+    height: 127px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    border-radius: 50%;
+}
+#icon {
+    margin: auto;
+    text-align: center;
+    /*font-size: 150px;*/
+    font: normal normal 600 85px/106px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+}
+
+.heading {
+text-align: center;
+font: normal normal 600 36px/55px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.Searches {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    width: 600px;
+    height: auto;
+    color: white ;
+    justify-content: space-around;
+}
+
+#city, #search {
+    border-color: none;
+    width: 160px;
+    font-family: 'Poppins', sans-serif;
+    height: 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+#search {
+    width: 320px;
+}

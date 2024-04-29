@@ -1,0 +1,71 @@
+.bottom {
+    margin: 0px auto;
+    width: 1000px;
+}
+
+
+
+#heading {
+    margin-top: 10px;
+    font: normal normal bold 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.text {
+    text-align: left;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+.card {
+    width: 300px;
+    margin-top: 30px;
+    height: 160px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.card:hover {
+    box-shadow: 8px 20px 40px #00000029;
+}
+
+@media (max-width: 1050px) {
+    .bottom {
+        width: 100%;
+    }
+    #cards {
+        justify-content: space-around;
+    }
+    #heading, .text {
+        text-align: center;
+    }
+}
+.card-text {
+    width: '50%';
+    height: '100%';
+}
+.cuisine {
+    text-align: left;
+    padding: 10px;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.cuisineText {
+    padding-left: 10px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}

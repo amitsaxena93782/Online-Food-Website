@@ -1,0 +1,71 @@
+#nav {
+    background-color: #CE0505;
+    height: 80px;
+    background: #CE0505 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 13px;
+    margin-left: 100px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navIcon {
+    text-align: left;
+    font: normal normal 600 40px/50px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+    margin-left: 10px;
+}
+
+#buttons {
+    padding: 20px;
+}
+
+#login, #create {
+    margin-right: 80px;
+    height: 40px;
+    font-size: large;
+    border: none;
+    background-color: transparent;
+    color: white;
+    transition-duration: 0.4s;
+    overflow: hidden;
+}
+#create {
+    border: 1px solid white;
+}
+
+
+@media (max-width: 750px) {
+    #nav {
+        height: 100px;
+    }
+    #logo {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    #navIcon {
+        margin-left: 10px;
+    }
+    #buttons {
+        padding: 20px;
+    }
+    #login, #create {
+        margin-right: 20px;
+        height: 40px;
+        font-size: medium;
+    }
+}

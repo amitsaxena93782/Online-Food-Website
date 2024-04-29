@@ -1,0 +1,34 @@
+{
+    "cuisines": [
+        {
+            "name": "Breakfast",
+            "img": "https://www.eatingwell.com/thmb/t1T6R6ZAyG6j8-39Bdmh6eAr0F4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/egg-tartine-892cac2657114696ab634792d0bdcb4b.jpg",
+            "description": "Start your day with exclusive breakfast options"
+        },
+        {
+            "name": "Lunch",
+            "img": "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2022/02/vegan-cafe-lunch-0218221.jpg",
+            "description": "Delight in our savory lunch selections, perfect for a midday refuel"
+        },
+        {
+            "name": "Snacks",
+            "img": "https://www.yewel.de/media/image/opc/lg/Bilder/Kategorien/Snacks/snacks.jpg",
+            "description": "Enjoy our tempting array of snacks, ideal for satisfying cravings and keeping hunger at bay between meals"
+        },
+        {
+            "name": "Dinner",
+            "img": "https://www.vineria.de/files/images/candle-light-dinner/candle-light-dinner-premium-haendchenhalten-02.jpg",
+            "description": "Indulge in our exquisite dinner menu, crafted to satisfy your evening cravings with elegance and flavor"
+        },
+        {
+            "name": "Drinks",
+            "img": "https://www.kenn-dein-limit.de/fileadmin/_processed_/f/2/csm_alkoholfreie-cocktails_bb763887cc.jpeg",
+            "description": "Sip and savor our refreshing drink offerings, designed to quench your thirst and elevate your experience"
+        },
+        {
+            "name": "Nightlife",
+            "img": "https://www.rnd.de/resizer/zgM9zoao7gMuIXqTLwFxZDzkRgo=/1441x811/filters:quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/madsack/QPJM67W6FZCINC7LC7NVX22OEY.jpeg",
+            "description": "Immerse yourself in the vibrant energy of our nightlife scene, infused with excitement and possibility"
+        }
+    ]
+}
