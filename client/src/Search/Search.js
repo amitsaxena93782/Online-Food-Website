@@ -1,10 +1,11 @@
 import React from 'react'
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
 import "./search.css"
 import { TextField, Checkbox, MenuItem, RadioGroup, Radio } from '@mui/material';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { useState } from 'react';
+import Restaurant from '../images/Restaurant.png'
 
 const Search = () => {
   const { cuisineName } = useParams();
@@ -71,14 +72,70 @@ const Search = () => {
         </div>
           
           <div id='Restaurants'>
-            <div className='Restaurant'>Restaurant 1</div>
-            <div className='Restaurant'>Restaurant 1</div>
-            <div className='Restaurant'>Restaurant 1</div>
-            <div className='Restaurant'>Restaurant 1</div>
+
+            <Link to={`/restaurant/1`} className='Restaurant'>
+              <img className='res_img' src={Restaurant} alt="Can't load the image" />
+              <div className='res_details'>
+                <div className='res_name'>The Big Chill Cakery</div>
+              <div className='res_loc'>FORT</div>
+              <div className='address'><p> Shop 1, Plot D, Samruddhi Complex, Chincholi</p></div>
+              </div>
+
+              <div className='line' />
+              
+              <div className='res_cuisine'>CUISINES: <br/>COST FOR TWO:</div>
+              <div className='res_cost'>Bakery <br/>Rs. 700</div>
+
+            </Link>
+
+            <div className='Restaurant'>
+              <img className='res_img' src={Restaurant} alt="Can't load the image" />
+              <div className='res_details'>
+                <div className='res_name'>The Big Chill Cakery</div>
+              <div className='res_loc'>FORT</div>
+              <div className='address'><p> Shop 1, Plot D, Samruddhi Complex, Chincholi</p></div>
+              </div>
+
+              <div className='line' />
+              
+              <div className='res_cuisine'>CUISINES: <br/>COST FOR TWO:</div>
+              <div className='res_cost'>Bakery <br/>Rs. 700</div>
+
+            </div>
+            <div className='Restaurant'>
+              <img className='res_img' src={Restaurant} alt="Can't load the image" />
+              <div className='res_details'>
+                <div className='res_name'>The Big Chill Cakery</div>
+              <div className='res_loc'>FORT</div>
+              <div className='address'><p> Shop 1, Plot D, Samruddhi Complex, Chincholi</p></div>
+              </div>
+
+              <div className='line' />
+              
+              <div className='res_cuisine'>CUISINES: <br/>COST FOR TWO:</div>
+              <div className='res_cost'>Bakery <br/>Rs. 700</div>
+
+            </div>
+            <div className='Restaurant'>
+              <img className='res_img' src={Restaurant} alt="Can't load the image" />
+              <div className='res_details'>
+                <div className='res_name'>The Big Chill Cakery</div>
+              <div className='res_loc'>FORT</div>
+              <div className='address'><p> Shop 1, Plot D, Samruddhi Complex, Chincholi</p></div>
+              </div>
+
+              <div className='line' />
+              
+              <div className='res_cuisine'>CUISINES: <br/>COST FOR TWO:</div>
+              <div className='res_cost'>Bakery <br/>Rs. 700</div>
+
+            </div>
+
+            <div id='page_nav'>This is page nav bar</div>
           </div>
           
       </div>
-      <div id='page_nav'>This is page nav bar</div>
+      
     </div>
   )
 }
